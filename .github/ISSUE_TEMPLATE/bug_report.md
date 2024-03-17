@@ -27,9 +27,9 @@ assignees: ''
 
 **Versions (please complete the following information):**
  > - OS: [e.g. Windows 10]
- > - Minecraft Version [e.g. 1.20.1]
- > - Modpack Version [e.g. 1.1.0]
- > - Launcher Used [e.g. Minecraft Launcher, Twitch, MultiMC]
+ > - Minecraft Version: [e.g. 1.20.1]
+ > - Modpack Version: [e.g. 1.1.0]
+ > - Launcher Used: [e.g. Minecraft Launcher, Twitch, MultiMC]
 
 **Additional context**
 > Add any other context about the problem here.
