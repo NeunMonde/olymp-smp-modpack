@@ -1,4 +1,4 @@
-﻿$BaseInput = "Modpack\all\"
+﻿$BaseInput = "..\Modpack\all\"
 
 class Variant {
     [string]$FriendlyName
@@ -73,8 +73,8 @@ function Build-Modpack {
         $variant.Depends.ForEach( { Build-Modpack -variantName $_ -target $target } )
     }
 
-    [string]$inputPath = "Modpack\$($variant.Source)\"
-    [string]$outputPath = "Releases\Olymp-$target-v.v.v\"
+    [string]$inputPath = "..\Modpack\$($variant.Source)\"
+    [string]$outputPath = "..\Releases\Olymp-$target-v.v.v\"
     
     Write-Output "`nBuilding $($variant.FriendlyName) Modpack..."
 
